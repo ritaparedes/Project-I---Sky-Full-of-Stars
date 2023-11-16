@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "SkyFullOFStars",
+			"Name": "SkyFullOfStars",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}

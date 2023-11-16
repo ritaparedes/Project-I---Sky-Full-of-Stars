@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class SkyFullOFStars : ModuleRules
+public class SkyFullOfStars : ModuleRules
 {
-	public SkyFullOFStars(ReadOnlyTargetRules Target) : base(Target)
+	public SkyFullOfStars(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

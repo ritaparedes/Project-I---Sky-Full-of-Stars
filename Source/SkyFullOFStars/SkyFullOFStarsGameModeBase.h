@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "SkyFullOFStarsGameModeBase.generated.h"
+#include "SkyFullOfStarsGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class SKYFULLOFSTARS_API ASkyFullOFStarsGameModeBase : public AGameModeBase
+class SKYFULLOFSTARS_API ASkyFullOfStarsGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	

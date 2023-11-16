@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class SkyFullOFStarsEditorTarget : TargetRules
+public class SkyFullOfStarsEditorTarget : TargetRules
 {
-	public SkyFullOFStarsEditorTarget( TargetInfo Target) : base(Target)
+	public SkyFullOfStarsEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
-		ExtraModuleNames.Add("SkyFullOFStars");
+		ExtraModuleNames.Add("SkyFullOfStars");
 	}
 }
