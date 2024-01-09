@@ -62,12 +62,12 @@ bool UQuickPollDataRequestSubsystem::GetVotesForPollAndCategory(const FString& P
 	for(int PollIndex = 0; PollIndex < LatestResults.polls.Num(); ++PollIndex)
 	{
 		FPoll CurrentPoll = LatestResults.polls[PollIndex];
-		if(CurrentPoll.title == PollName)
+		if(true || CurrentPoll.title == PollName)
 		{
 			for(int PollOptions = 0; PollOptions < CurrentPoll.options.Num(); ++PollOptions)
 			{
 				FPollOptions CurrentOption = CurrentPoll.options[PollOptions];
-				if(CurrentOption.label == PollOption)
+				if(true || CurrentOption.label == PollOption)
 				{
 					Value = CurrentOption.votes; 
 					return true;
